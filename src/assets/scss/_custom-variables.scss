@@ -1,0 +1,92 @@
+//
+// custom-variables.scss
+//
+
+//Background left-sidebar
+$bg-leftbar: #313a46;
+
+// Leftbar width
+$leftbar-width: 240px;
+$leftbar-width-condensed: 70px;
+
+// Small Leftbar Width
+$leftbar-width-sm: 160px;
+
+// Boxed layout width
+$boxed-layout-width: 1300px;
+
+//Menu item
+$menu-item: #8391a2;
+$menu-item-hover: $white;
+$menu-item-active: $white;
+$menu-sub-item-active: $white;
+$menu-item-size: 0.95rem;
+$menu-sub-item-size: 0.875rem;
+
+//Topbar Background
+$bg-topbar-light: $white;
+
+// Leftbar item shadow (Condensed item)
+$box-shadow-condensed: 3px 5px 10px 0 rgba(154, 161, 171, 0.2);
+
+// Page title
+$page-title-color: $gray-100;
+
+// Topbar Search
+$topbar-search-bg: #f1f3fa;
+
+// Topbar Height
+$topbar-height: 70px;
+
+// Footer
+$footer-bg: transparent;
+$footer-color: $gray-700;
+$footer-link-hover-color: #636b72;
+
+// Logo box
+$logo-box-background: #313a46;
+
+// Body minimum height
+$body-min-height: 1750px;
+
+// Secondary font
+$font-family-secondary: "Karla", sans-serif;
+
+// Font weight
+$font-weight-medium: 500;
+
+// Dropdown Large
+$dropdown-lg-width: 320px;
+
+// Logo Display
+$logo-dark-display: none;
+$logo-light-display: block;
+
+// Logo Display - Auth Pages
+$logo-auth-dark-display: block;
+$logo-auth-light-display: none;
+
+// User authentication Background
+$auth-bg: $white;
+$auth-bg-alt: $primary;
+$auth-img-bg: url("../images/bg-auth3.png");
+
+// Card overlay
+$card-overlay-bg: rgba($white, 0.8);
+
+// Input light gray
+$input-light-bg: #f3f7f9;
+
+// Components Shadows
+$components-shadow-sm: none;
+$components-shadow: none;
+$components-shadow-lg: none;
+
+// label
+$label-font-weight: 500;
+
+// Table Head
+$table-head-font-weight: 700;
+
+// Font weight
+$font-weight-medium: 500;

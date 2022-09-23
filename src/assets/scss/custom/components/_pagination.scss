@@ -1,0 +1,78 @@
+// 
+// pagination.scss
+//
+
+
+// Pagination rounded (Custom)
+.pagination-rounded {
+    .page-link {
+        border-radius: 30px !important;
+        margin: 0 6px;
+        border: none;
+    }
+
+    .page-item {
+        &:last-child {
+            .page-link {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+.pagination {
+    a {
+        line-height: $line-height-sm  !important;
+    }
+}
+
+// custom-pagination
+.pagination-container {
+    display: flex;
+    list-style-type: none;
+
+    .pagination-item {
+        padding: 0 $pagination-padding-x;
+        height: 32px;
+        text-align: center;
+        margin: auto 4px;
+        color: rgba(0, 0, 0, 0.87);
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        letter-spacing: 0.01071em;
+        border-radius: $border-radius;
+        line-height: $line-height-base;
+        font-size: $font-size-base;
+        min-width: 32px;
+
+        &.dots:hover {
+            background-color: transparent;
+            cursor: default;
+        }
+
+        &:hover {
+            background-color: $gray-300;
+            color: $black;
+            cursor: pointer;
+        }
+
+        &.selected {
+            background-color: $primary;
+            color: $white;
+        }
+
+        &.disabled {
+            pointer-events: none;
+
+            .arrow {
+                fill: $gray-600;
+            }
+
+            &:hover {
+                background-color: transparent;
+                cursor: default;
+            }
+        }
+    }
+}
