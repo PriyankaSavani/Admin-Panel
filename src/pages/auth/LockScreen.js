@@ -9,7 +9,7 @@ import { AiFillLock } from 'react-icons/ai';
 import AuthLayout from './AuthLayout'
 
 // images
-import userImg from '../../assets/images/users/user-1.jpg';
+import userImg from '../../assets/images/user-1.jpg';
 
 const BottomLink = () => {
     return (

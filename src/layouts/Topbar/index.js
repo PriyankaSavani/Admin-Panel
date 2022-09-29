@@ -12,9 +12,9 @@ import useRedux from '../../hooks/useRedux';
 import TopbarProfileDropdown from './TopbarProfileDropdown';
 
 // images
-import logoSm from '../../assets/images/logo-sm.png';
-import avatar1 from '../../assets/images/users/user-1.jpg';
-import logoLight from '../../assets/images/logo-light.png';
+import logoSm from '../../assets/images/logo.png';
+import avatar1 from '../../assets/images/user-1.jpg';
+import logoLight from '../../assets/images/logo.png';
 
 const Topbar = ({ openLeftMenuCallBack }) => {
 
